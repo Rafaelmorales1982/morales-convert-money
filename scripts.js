@@ -24,7 +24,7 @@ const convertValues = async () => {
 
 //Mostra a cotação online no Header da página
 const cotationEuro = document.getElementById("euro-text");
-cotationEuro.textContent = `1 EUR = ${dolar} BRL`;
+cotationEuro.textContent = `1 EUR = ${euro} BRL`;
 
 const cotationDolar = document.getElementById("dolar-text");
 cotationDolar.textContent = `1 USD = ${dolar} BRL`;
